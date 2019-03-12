@@ -1,3 +1,17 @@
+body {
+    background: url('http://cache.gawker.com/assets/images/lifehacker/2009/10/Sevensheaven-desktop-Space-Invaders-1920x1080.jpg');
+    text-align: center;
+}
 h1 {
-    color: blue;
+    color: white;
+    text-align: center;
+}
+#gamebox {
+    background: red;
+    margin: auto;
+    width: 50%;
+    border: solid;
+    border-color: rgb(10, 245, 245);
+    border-width: 10px;
+    margin-top: 50px;
 }
