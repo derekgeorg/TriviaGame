@@ -7,7 +7,7 @@ March 11, 2019
 Criteria is:
 
 Create a trivia form with multiple choice or t/f options.
-Each question is timed.
+Game is timed.
 Game ends when the time runs out. 
 Page will reveal the the number of questions that the players answer correctly and incorrectly.
 Player cannot pick more than one answer per question.
