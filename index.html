@@ -6,24 +6,27 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>TriviaGame</title>
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="assets/javascript/app.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    
 </head>
 <body>
     <div id=gamebox>
         <h1 id=Title>80s Retro Gaming Trivia</h1>
-        <h2 id=timer>Time Remaining:<p id=time-left></p></h1>
-        <h3 id=question1>Question 1</h3>
-        <h3 id=question2>Question 2</h3>
-        <h3 id=question3>Question 3</h3>
-        <h3 id=question4>Question 4</h3>
-        <h3 id=question5>Question 5</h3>
-        <h3 id=question6>Question 6</h3>
-        <h3 id=question7>Question 7</h3>
-        <h3 id=question8>Question 8</h3>
-        <h3 id=question9>Question 9</h3>
-        <h3 id=question10>Question 10</h3>
-
+        <h1>Time Remaining: <h1 id ="timer"></h1></h1>
+        
+            <div class="question">Best Mario Brothers</div>
+            <form id="form">
+                <input type="radio" name="question1" value="correct">1<br>
+                <input type="radio" name="question1" value="wrong">2<br>
+                <input type="radio" name="question1" value="wrong">3<hr>
+            </form>
+            <button id="submit">Submit</button>
+            </div>
+            
+            
+            
+        
     </div>
     
     
